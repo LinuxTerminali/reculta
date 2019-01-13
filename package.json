@@ -1,0 +1,28 @@
+{
+  "name": "simple-auth",
+  "version": "1.0.0",
+  "description": "a simple auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "nkmishra1995@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.3",
+    "morgan": "^1.9.1",
+    "nodemailer": "^5.1.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "engines": {
+    "node": "8.10.0"
+  }
+}
