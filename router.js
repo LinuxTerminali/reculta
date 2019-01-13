@@ -30,7 +30,7 @@ module.exports = function(app) {
   authRoutes.post('/login', requireLogin, AuthenticationController.login );
 
   // Delete route
-  apiRoutes.delete('/remove', requireAuth, manageUser.deleteMember );
+  authRoutes.delete('/remove', requireAuth, manageUser.deleteMember );
 
   // Change role route
   apiRoutes.post('/change-role', requireAuth, manageUser.changeRole );
