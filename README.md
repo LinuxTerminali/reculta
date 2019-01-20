@@ -1,4 +1,4 @@
-# reculta
+# simple-auth
 A simple auth in nodejs
 
 
